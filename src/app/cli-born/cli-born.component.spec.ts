@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CliServerComponent } from './cli-server.component';
+import { CliBornComponent } from './cli-born.component';
 
-describe('CliServerComponent', () => {
-  let component: CliServerComponent;
-  let fixture: ComponentFixture<CliServerComponent>;
+describe('CliBornComponent', () => {
+  let component: CliBornComponent;
+  let fixture: ComponentFixture<CliBornComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CliServerComponent ]
+      declarations: [ CliBornComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CliServerComponent);
+    fixture = TestBed.createComponent(CliBornComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
