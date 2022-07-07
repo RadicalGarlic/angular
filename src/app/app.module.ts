@@ -18,6 +18,7 @@ import { PropertyBindingComponent } from './databinding/property-binding/propert
 import { EventBindingComponent } from './databinding/event-binding/event-binding.component';
 import { TwoWayDataBindingComponent } from './databinding/two-way-data-binding/two-way-data-binding.component';
 import { NgifComponent } from './ngif/ngif.component';
+import { NgstyleComponent } from './ngstyle/ngstyle.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { NgifComponent } from './ngif/ngif.component';
     PropertyBindingComponent,
     EventBindingComponent,
     TwoWayDataBindingComponent,
-    NgifComponent
+    NgifComponent,
+    NgstyleComponent
   ],
   imports: [
     BrowserModule,
