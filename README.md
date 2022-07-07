@@ -1,4 +1,12 @@
-# CUTOFF IS S2-24
+Notes on the Angular framework.
+
+Based off the Udemy course "Angular - The Complete Guide (2022 Edition)" by Maximilian Schwarzmüller.
+
+# Startup
+
+`ng new`
+
+# Original README
 
 # AppS113
 
