@@ -20,6 +20,7 @@ import { TwoWayDataBindingComponent } from './databinding/two-way-data-binding/t
 import { NgifComponent } from './ngif/ngif.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
+import { NgforComponent } from './ngfor/ngfor.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { NgclassComponent } from './ngclass/ngclass.component';
     TwoWayDataBindingComponent,
     NgifComponent,
     NgstyleComponent,
-    NgclassComponent
+    NgclassComponent,
+    NgforComponent
   ],
   imports: [
     BrowserModule,
