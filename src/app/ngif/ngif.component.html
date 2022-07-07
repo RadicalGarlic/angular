@@ -1,0 +1,10 @@
+<!-- The asterisk in front of ngIf is required. Represents structural changes. The element isn't just hidden, it's actually added and removed on the fly from the DOM-->
+<button (click)="toggleHidden()">toggle text with ngif</button>
+<span *ngIf="!hidden"> ngif text 1</span>
+<br />
+<button (click)="toggleText()">toggle between text with ngif</button>
+<span *ngIf="primary; else alt">primary text</span>
+<!-- '#' denotes a "local reference" -->
+<ng-template #alt>
+  <span>alt text</span>
+</ng-template>

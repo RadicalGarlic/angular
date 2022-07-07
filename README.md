@@ -10,8 +10,11 @@ Based off the Udemy course "Angular - The Complete Guide (2022 Edition)" by Maxi
 
 `ng build`
 
-# Original README
+Directives are basically any custom HTML element/attribute that you can create. Components are actually directives. "Directives are instructions in the DOM."
 
+
+# Original README
+```
 # AppS113
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
@@ -39,3 +42,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```

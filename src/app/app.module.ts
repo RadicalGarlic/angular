@@ -17,6 +17,7 @@ import { StringInterpolationComponent } from './databinding/string-interpolation
 import { PropertyBindingComponent } from './databinding/property-binding/property-binding.component';
 import { EventBindingComponent } from './databinding/event-binding/event-binding.component';
 import { TwoWayDataBindingComponent } from './databinding/two-way-data-binding/two-way-data-binding.component';
+import { NgifComponent } from './ngif/ngif.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TwoWayDataBindingComponent } from './databinding/two-way-data-binding/t
     StringInterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    TwoWayDataBindingComponent
+    TwoWayDataBindingComponent,
+    NgifComponent
   ],
   imports: [
     BrowserModule,
