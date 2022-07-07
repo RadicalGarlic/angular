@@ -6,6 +6,10 @@ Based off the Udemy course "Angular - The Complete Guide (2022 Edition)" by Maxi
 
 `ng new`
 
+`ng serve`
+
+`ng build`
+
 # Original README
 
 # AppS113
