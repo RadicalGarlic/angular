@@ -8,6 +8,7 @@ import { InlineComponent } from './inline/inline.component';
 import { NestedComponent } from './nested/nested.component';
 import { StyledComponent } from './styled/styled.component';
 import { InnerComponent } from './nested/inner/inner.component';
+import { SelectorComponent } from './selector/selector.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { InnerComponent } from './nested/inner/inner.component';
     InlineComponent,
     InnerComponent,
     NestedComponent,
+    SelectorComponent,
     ServerComponent,
     StyledComponent
   ],
