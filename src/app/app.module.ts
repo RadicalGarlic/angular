@@ -12,6 +12,7 @@ import { SelectorComponent } from './selector/selector.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { StringInterpolationComponent } from './databinding/string-interpolation/string-interpolation.component';
 import { PropertyBindingComponent } from './databinding/property-binding/property-binding.component';
+import { EventBindingComponent } from './databinding/event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PropertyBindingComponent } from './databinding/property-binding/propert
     StyledComponent,
     DatabindingComponent,
     StringInterpolationComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule
