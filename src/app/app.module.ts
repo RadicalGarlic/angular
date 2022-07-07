@@ -16,6 +16,7 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { StringInterpolationComponent } from './databinding/string-interpolation/string-interpolation.component';
 import { PropertyBindingComponent } from './databinding/property-binding/property-binding.component';
 import { EventBindingComponent } from './databinding/event-binding/event-binding.component';
+import { TwoWayDataBindingComponent } from './databinding/two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -30,10 +31,12 @@ import { EventBindingComponent } from './databinding/event-binding/event-binding
     DatabindingComponent,
     StringInterpolationComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayDataBindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule // Necessary for two-way databinding
   ],
   providers: [],
   bootstrap: [AppComponent]
