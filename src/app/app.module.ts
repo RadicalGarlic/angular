@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+// Necessary for two-way databinding
+import { FormsModule } from '@angular/forms';
+
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { CliBornComponent } from './cli-born/cli-born.component';

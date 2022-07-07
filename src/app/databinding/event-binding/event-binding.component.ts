@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
   numClicks: number;
+  textInput: string;
 
   constructor() {
     this.numClicks = 0;
+    this.textInput = '';
   }
 
   ngOnInit(): void {
@@ -17,5 +19,11 @@ export class EventBindingComponent implements OnInit {
 
   onButton() {
     this.numClicks += 1;
+  }
+
+  onTextInput(event) {
+    // Dump out to console.log(event) if you're unsure of fields
+    console.log(event)
+    this.textInput = event.target.value;
   }
 }

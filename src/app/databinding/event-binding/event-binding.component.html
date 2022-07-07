@@ -1,2 +1,4 @@
 <!-- Dump out an element in console.log() to see all the properties/events that can be bound to -->
 <button (click)="onButton()">event binding, {{ numClicks }} clicks</button>
+
+<p>event binding with input ({{ this.textInput }}): <input type="text" class="form-control" (input)="onTextInput($event)"></p>
