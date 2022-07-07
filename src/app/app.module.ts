@@ -9,6 +9,9 @@ import { NestedComponent } from './nested/nested.component';
 import { StyledComponent } from './styled/styled.component';
 import { InnerComponent } from './nested/inner/inner.component';
 import { SelectorComponent } from './selector/selector.component';
+import { DatabindingComponent } from './databinding/databinding.component';
+import { StringInterpolationComponent } from './databinding/string-interpolation/string-interpolation.component';
+import { PropertyBindingComponent } from './databinding/property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { SelectorComponent } from './selector/selector.component';
     NestedComponent,
     SelectorComponent,
     ServerComponent,
-    StyledComponent
+    StyledComponent,
+    DatabindingComponent,
+    StringInterpolationComponent,
+    PropertyBindingComponent
   ],
   imports: [
     BrowserModule
