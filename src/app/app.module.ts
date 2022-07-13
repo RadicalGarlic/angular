@@ -27,6 +27,7 @@ import { GlobalStyleComponent } from './global-style/global-style.component';
 import { LocalReferenceComponent } from './local-reference/local-reference.component';
 import { ViewChildComponent } from './view-child/view-child.component';
 import { NgcontentComponent } from './ngcontent/ngcontent.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { NgcontentComponent } from './ngcontent/ngcontent.component';
     GlobalStyleComponent,
     LocalReferenceComponent,
     ViewChildComponent,
-    NgcontentComponent
+    NgcontentComponent,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule,
