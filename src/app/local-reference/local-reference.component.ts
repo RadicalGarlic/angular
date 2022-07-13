@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./local-reference.component.css']
 })
 export class LocalReferenceComponent implements OnInit {
-  inputValue: string = '';
+  inputValue: string = 'type in some text and click the button';
 
   constructor() { }
 

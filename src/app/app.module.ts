@@ -25,6 +25,7 @@ import { ExternalPropertyBindComponent } from 'src/app/external-property-bind/ex
 import { ExternalEventBindComponent } from './external-event-bind/external-event-bind.component';
 import { GlobalStyleComponent } from './global-style/global-style.component';
 import { LocalReferenceComponent } from './local-reference/local-reference.component';
+import { ViewChildComponent } from './view-child/view-child.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { LocalReferenceComponent } from './local-reference/local-reference.compo
     ExternalPropertyBindComponent,
     ExternalEventBindComponent,
     GlobalStyleComponent,
-    LocalReferenceComponent
+    LocalReferenceComponent,
+    ViewChildComponent
   ],
   imports: [
     BrowserModule,
