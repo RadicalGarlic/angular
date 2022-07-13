@@ -24,6 +24,7 @@ import { NgforComponent } from './ngfor/ngfor.component';
 import { ExternalPropertyBindComponent } from 'src/app/external-property-bind/external-property-bind.component';
 import { ExternalEventBindComponent } from './external-event-bind/external-event-bind.component';
 import { GlobalStyleComponent } from './global-style/global-style.component';
+import { LocalReferenceComponent } from './local-reference/local-reference.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { GlobalStyleComponent } from './global-style/global-style.component';
     NgforComponent,
     ExternalPropertyBindComponent,
     ExternalEventBindComponent,
-    GlobalStyleComponent
+    GlobalStyleComponent,
+    LocalReferenceComponent
   ],
   imports: [
     BrowserModule,
