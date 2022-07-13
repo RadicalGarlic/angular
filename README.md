@@ -12,6 +12,9 @@ Based off the Udemy course "Angular - The Complete Guide (2022 Edition)" by Maxi
 
 Directives are basically any custom HTML element/attribute that you can create. Components are actually directives. "Directives are instructions in the DOM."
 
+# Misc
+
+Scope of CSS files is blocked to only the component it's a part of. Angular enforces this by adding its own unique attributes to elements so the CSS can differentiate. This is similar to "shadow DOM".
 
 # Original README
 ```

@@ -22,6 +22,8 @@
       <app-external-property-bind [value]="'bound from parent app.component'"></app-external-property-bind>
       <app-external-event-bind (internalEvent)="externalEventHandler($event)"></app-external-event-bind>
       <span> caught: {{ externalEventBindResult }}</span>
+      <app-global-style><!-- Need this to bring in global style CSS --></app-global-style>
+      <p class="global-style">global style</p>
     </div>
   </div>
 </div>
