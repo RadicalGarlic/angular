@@ -22,6 +22,7 @@ import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { ExternalPropertyBindComponent } from 'src/app/external-property-bind/external-property-bind.component';
+import { ExternalEventBindComponent } from './external-event-bind/external-event-bind.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ExternalPropertyBindComponent } from 'src/app/external-property-bind/ex
     NgstyleComponent,
     NgclassComponent,
     NgforComponent,
-    ExternalPropertyBindComponent
+    ExternalPropertyBindComponent,
+    ExternalEventBindComponent
   ],
   imports: [
     BrowserModule,
