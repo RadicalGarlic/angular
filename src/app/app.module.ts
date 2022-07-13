@@ -28,6 +28,7 @@ import { LocalReferenceComponent } from './local-reference/local-reference.compo
 import { ViewChildComponent } from './view-child/view-child.component';
 import { NgcontentComponent } from './ngcontent/ngcontent.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { ContentChildComponent } from './content-child/content-child.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
     LocalReferenceComponent,
     ViewChildComponent,
     NgcontentComponent,
-    LifecycleComponent
+    LifecycleComponent,
+    ContentChildComponent
   ],
   imports: [
     BrowserModule,
