@@ -21,6 +21,7 @@ import { NgifComponent } from './ngif/ngif.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { NgforComponent } from './ngfor/ngfor.component';
+import { ExternalPropertyBindComponent } from 'src/app/external-property-bind/external-property-bind.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
     NgifComponent,
     NgstyleComponent,
     NgclassComponent,
-    NgforComponent
+    NgforComponent,
+    ExternalPropertyBindComponent
   ],
   imports: [
     BrowserModule,
