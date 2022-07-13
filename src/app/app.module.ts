@@ -26,6 +26,7 @@ import { ExternalEventBindComponent } from './external-event-bind/external-event
 import { GlobalStyleComponent } from './global-style/global-style.component';
 import { LocalReferenceComponent } from './local-reference/local-reference.component';
 import { ViewChildComponent } from './view-child/view-child.component';
+import { NgcontentComponent } from './ngcontent/ngcontent.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { ViewChildComponent } from './view-child/view-child.component';
     ExternalEventBindComponent,
     GlobalStyleComponent,
     LocalReferenceComponent,
-    ViewChildComponent
+    ViewChildComponent,
+    NgcontentComponent
   ],
   imports: [
     BrowserModule,
