@@ -29,6 +29,7 @@ import { ViewChildComponent } from './view-child/view-child.component';
 import { NgcontentComponent } from './ngcontent/ngcontent.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ContentChildComponent } from './content-child/content-child.component';
+import { CustomAttributeDirective } from './custom-attribute-directive/custom-attribute-directive.directive';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { ContentChildComponent } from './content-child/content-child.component';
     ViewChildComponent,
     NgcontentComponent,
     LifecycleComponent,
-    ContentChildComponent
+    ContentChildComponent,
+    CustomAttributeDirective
   ],
   imports: [
     BrowserModule,

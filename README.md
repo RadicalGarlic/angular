@@ -12,9 +12,21 @@ Based off the Udemy course "Angular - The Complete Guide (2022 Edition)" by Maxi
 
 Directives are basically any custom HTML element/attribute that you can create. Components are actually directives. "Directives are instructions in the DOM."
 
+# Directives
+
+Attribute and structural directives.
+
+Attribute directives kind of look like HTML element attributes.
+
+Structural directives change the structure of the DOM (ngIf, etc.). They are also marked with an asterisk in HTML templates. An element can only have one structural directive (no combining ngFor and ngIf).
+
+ng generate directive some-new-directive
+
 # Misc
 
 Scope of CSS files is blocked to only the component it's a part of. Angular enforces this by adding its own unique attributes to elements so the CSS can differentiate. This is similar to "shadow DOM".
+
+It's actually best practice to do initialization in `ngOnInit` rather than the constructor. Find out why.
 
 # Original README
 ```
