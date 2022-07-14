@@ -30,6 +30,7 @@ import { NgcontentComponent } from './ngcontent/ngcontent.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ContentChildComponent } from './content-child/content-child.component';
 import { CustomAttributeDirective } from './custom-attribute-directive/custom-attribute-directive.directive';
+import { HostListenerDirective } from './host-listener/host-listener.directive';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { CustomAttributeDirective } from './custom-attribute-directive/custom-at
     NgcontentComponent,
     LifecycleComponent,
     ContentChildComponent,
-    CustomAttributeDirective
+    CustomAttributeDirective,
+    HostListenerDirective
   ],
   imports: [
     BrowserModule,
