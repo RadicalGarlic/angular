@@ -31,6 +31,10 @@
       <app-content-child><p #localRefNgContent>@ContentChild projection</p></app-content-child>
       <p appCustomAttributeDirective>custom attribute directive</p>
       <p appHostListener>hover over me (host listener)</p>
+
+      <!-- angular just magically knows that defaultColor and highlightColor are properties of appHostBinding. If there's a collision with a component/directive, use an alias with @Input or @Output. You can give the same name as the directive and the property like @Input('appHostBinding') to get [appHostBinding]="'yellow'" -->
+      <!-- be very clear that highlightColor is on the directive and not a built-in thing. Strings only -->
+      <p appHostBinding [defaultColor]="'cyan'" highlightColor="black">hover over me (host binding)</p>
     </div>
   </div>
 </div>

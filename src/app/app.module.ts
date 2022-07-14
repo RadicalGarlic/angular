@@ -31,6 +31,7 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ContentChildComponent } from './content-child/content-child.component';
 import { CustomAttributeDirective } from './custom-attribute-directive/custom-attribute-directive.directive';
 import { HostListenerDirective } from './host-listener/host-listener.directive';
+import { HostBindingDirective } from './host-binding/host-binding.directive';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { HostListenerDirective } from './host-listener/host-listener.directive';
     LifecycleComponent,
     ContentChildComponent,
     CustomAttributeDirective,
-    HostListenerDirective
+    HostListenerDirective,
+    HostBindingDirective
   ],
   imports: [
     BrowserModule,
